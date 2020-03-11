@@ -1,0 +1,15 @@
+This is a ReadMe file for running the code present alongwith this.
+
+The file "PreProcess.py" will preprocess the data provided on the InClass competition page.
+The file "Algorithm.py" consists of the model, predicting values on the test data and creating the pickle file.
+The file "final_model.sav" is the pickle file which you need to download via the drive link given in the end of the report.
+
+Steps to run the code:
+1. Run the PreProcess file on the train and test data by entering the command -
+      ----->python3 PreProcess.py
+   The program will clean both the datasets and output two new csv - "train_final.csv" and "test_final.csv".
+2. Now run the Algorithm file on the preprocessed datasets by entering the command -
+      ----->python3 Algorithm.py
+   The program will run for some amount of time and then produce a pickle file and the submission csv.
+
+Only the above two commands need to be run.
